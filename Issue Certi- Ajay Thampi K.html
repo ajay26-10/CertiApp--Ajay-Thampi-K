@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Certificate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-300">
+    
+    <div class="flex gap-4 justify-end mx-2">
+    <button>Home</button>
+    <button class="bg-sky-400 w-[130px] h-[40px] hover:bg-sky-600 rounded-md p-1">Issue Certificate</button>
+    </div>
+
+    <div>
+        <p class="text-3xl mt-[5%] ml-6">Certificate Dapp</p>
+        
+        <div class="border w-[1000px] ml-[200px] mt-4 bg-slate-100">
+                <p class="text-2xl m-4">Issue New Certificate</p>
+        
+                <div class="m-6">
+                    <p class="mt-4">Select Course *</p>
+                    <select class="w-[300px]">
+                        <option>Certificate Blockchain Associate</option>
+                        <option>Certified Ethereum Developer</option>
+                        <option>Certified Hyperledger Fabric Developer</option>
+                    </select>
+
+                    <p class="mt-4">Certificate ID *</p>
+                    <input type="text" required placeholder="Certificate ID" class="w-[300px]">
+            
+                    <p class="mt-4">Candidate name *</p>
+                    <input type="text" required placeholder="Name" class="w-[300px]">
+        
+                    <p class="mt-4">Select Grade *</p>
+                        <select class="w-[300px]"> 
+                            <option value="s">S</option>
+                            <option value="a">A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                        </select>
+
+                    <p class="mt-4">Date of Issue *</p>
+                        <input type="date" name="dois" class="w-[300px]"> <br><br>
+                        
+                    <button class="bg-cyan-400 w-[130px] h-[40px] hover:bg-cyan-600 rounded-lg p-1">Issue Certificate</button>
+            </div>
+        </div>
+    </div>  
+    
+
+</body>
+
+</html>
